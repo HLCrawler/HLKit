@@ -1,0 +1,6 @@
+framework module HLKit {
+  umbrella header "HLKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

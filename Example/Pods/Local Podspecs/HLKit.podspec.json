@@ -1,0 +1,22 @@
+{
+  "name": "HLKit",
+  "version": "0.1.0",
+  "summary": "A short description of HLKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hanlong/HLKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hanlong": "hanlong@100tal.com"
+  },
+  "source": {
+    "git": "https://github.com/hanlong/HLKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HLKit/Classes/**/*"
+}
