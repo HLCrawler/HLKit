@@ -30,12 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.subspec 'ModuleA' do |ss|
-    ss.source_files = 'HLKit/Classes/ModuleA/**/*'
-  end
-
   s.subspec 'Category' do |category|
     category.source_files = 'HLKit/Classes/Category/**/*'
+  end
+
+  s.subspec 'ModuleA' do |ss|
+    ss.source_files = 'HLKit/Classes/ModuleA/**/*'
   end
   
   # s.resource_bundles = {
