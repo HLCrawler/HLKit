@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.subspec '简单工厂模式' do |ss|
-    ss.source_files = 'HLKit/Classes/简单工厂模式/**/*'
+  s.subspec 'ModuleA' do |ss|
+    ss.source_files = 'HLKit/Classes/ModuleA/**/*'
   end
 
   s.subspec 'Category' do |category|
