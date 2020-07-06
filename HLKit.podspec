@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HLKit'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of HLKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,14 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  # 此处将模块内部代码和模块提供的服务代码分开处理
-  # 模块内部代码
   s.subspec '简单工厂模式' do |ss|
-    ss.source_files = 'HLKit/Classes/简单工厂模式/*.{h,m}'
+    ss.source_files = 'HLKit/Classes/简单工厂模式/**/*'
   end
 
-  s.subspec 'Category' do |ss|
-    ss.source_files = 'HLKit/Classes/Category/*.{h,m}'
+  s.subspec 'Category' do |category|
+    category.source_files = 'HLKit/Classes/Category/**/*'
   end
   
   s.resource_bundles = {
