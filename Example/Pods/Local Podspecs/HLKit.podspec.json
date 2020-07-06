@@ -1,9 +1,9 @@
 {
   "name": "HLKit",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "summary": "A short description of HLKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/hanlong/HLKit",
+  "homepage": "https://github.com/HLCrawler/HLKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,25 @@
     "hanlong": "hanlong@100tal.com"
   },
   "source": {
-    "git": "https://github.com/hanlong/HLKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/HLCrawler/HLKit.git",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HLKit/Classes/**/*"
+  "resource_bundles": {
+    "HLKit": [
+      "HLKit/Assets/*.png"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "简单工厂模式",
+      "source_files": "HLKit/Classes/简单工厂模式/*.{h,m}"
+    },
+    {
+      "name": "Category",
+      "source_files": "HLKit/Classes/Category/*.{h,m}"
+    }
+  ]
 }

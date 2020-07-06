@@ -30,7 +30,6 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HLKit/Classes/**/*'
   # 此处将模块内部代码和模块提供的服务代码分开处理
   # 模块内部代码
   s.subspec '简单工厂模式' do |ss|
@@ -41,9 +40,9 @@ TODO: Add long description of the pod here.
     ss.source_files = 'HLKit/Classes/Category/*.{h,m}'
   end
   
-  # s.resource_bundles = {
-  #   'HLKit' => ['HLKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'HLKit' => ['HLKit/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
