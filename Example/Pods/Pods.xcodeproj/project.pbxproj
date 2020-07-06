@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04195C1F83309AE9A1F671D109FD1D6C /* AppleComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B042090B3903E65D01FD43C3FD64B8 /* AppleComputer.m */; };
-		0EFF765CBE42C15B2ED1D98870649D9E /* LenovoComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 872905B680B73DB778434C998E6CC3B0 /* LenovoComputer.m */; };
 		1EAFA1CE5782FE647EFA090C6D9BC789 /* Pods-HLKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D052A0EA1188368B704A61B0284CAA8 /* Pods-HLKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2079F364C6F410F49750CD282C94E4CD /* ComputerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A8AF68EB6DA5F64E5874DE6D8B7095 /* ComputerFactory.m */; };
 		2599ED1FE05725F3E8B99EF41D9EF6C5 /* HLKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F948781A4B9B29FE9EC6EF4F90591 /* HLKit-dummy.m */; };
 		28D88DB3D976E191BAFAA8BA2B0B9A12 /* Pods-HLKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A5BB589FE42B7D1EF2E10785D9A362 /* Pods-HLKit_Example-dummy.m */; };
-		3B682F71CC28F3216393B6D1EEF192BC /* ComputerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 174E999F2F9FDA5682381BDF330B6F23 /* ComputerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40005A5723C8CC8FBC3C6AECD5422E98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4124F4A6D18D791394B2A56ECBAE1C50 /* UILabel+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AE747E80322514D09091CFC6A4118F /* UILabel+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		433D99F6A2967570A9A3C0D6BA363E47 /* UIView+Addition 下午9.45.43.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEB4CAF9412005018B5F3428973040C /* UIView+Addition 下午9.45.43.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4716AC992029514780B0B280D612B7D1 /* Pods-HLKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82385D2521821B41DBE07E5EAB0E754E /* Pods-HLKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6965834BA3EAE0BA7F068F2957F4901E /* HLKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E38C9D2FCB1CCF377BE06140B1245BD6 /* HLKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		721189630E84913E73B86EAF35ED5E49 /* AppleComputer.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE9049251549873383E0E70E1E0065E /* AppleComputer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C0D50953F72C364C05F7AB6B205CDEF /* UIView+BorderLine 下午9.45.43.m in Sources */ = {isa = PBXBuildFile; fileRef = 749400F70D6484445E88A9F2D09154EB /* UIView+BorderLine 下午9.45.43.m */; };
-		8A0738A8C67DCDA88D963DC973CDBA37 /* UIView+BorderLine 下午9.45.43.h in Headers */ = {isa = PBXBuildFile; fileRef = 957357DBFAB7D77ACAB9209CBFC42A11 /* UIView+BorderLine 下午9.45.43.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A677D140AB390DC77B280866D9D0329F /* Computer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2CF4B570ADA8342B4370D074969008 /* Computer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5BAB6304F5C3AA58DCC2995B9CCA150 /* LenovoComputer.h in Headers */ = {isa = PBXBuildFile; fileRef = AC438F9949063BB931B89EAEF8DBE6F5 /* LenovoComputer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB28E58800A2E12A0F6B8B62508C7564 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CDB927C424B37C8E0092BAFD /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB927C024B37C8E0092BAFD /* UIView+Addition.m */; };
+		CDB927C524B37C8E0092BAFD /* UIView+BorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB927C124B37C8E0092BAFD /* UIView+BorderLine.m */; };
+		CDB927C624B37C8E0092BAFD /* UIView+BorderLine.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB927C224B37C8E0092BAFD /* UIView+BorderLine.h */; };
+		CDB927C724B37C8E0092BAFD /* UIView+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB927C324B37C8E0092BAFD /* UIView+Addition.h */; };
+		CDB927D124B37CB90092BAFD /* LenovoComputer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB927C924B37CB90092BAFD /* LenovoComputer.h */; };
+		CDB927D224B37CB90092BAFD /* ComputerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB927CA24B37CB90092BAFD /* ComputerFactory.h */; };
+		CDB927D324B37CB90092BAFD /* AppleComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB927CB24B37CB90092BAFD /* AppleComputer.m */; };
+		CDB927D424B37CB90092BAFD /* Computer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB927CC24B37CB90092BAFD /* Computer.h */; };
+		CDB927D524B37CB90092BAFD /* LenovoComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB927CD24B37CB90092BAFD /* LenovoComputer.m */; };
+		CDB927D624B37CB90092BAFD /* AppleComputer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB927CE24B37CB90092BAFD /* AppleComputer.h */; };
+		CDB927D724B37CB90092BAFD /* ComputerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB927CF24B37CB90092BAFD /* ComputerFactory.m */; };
+		CDB927D824B37CB90092BAFD /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB927D024B37CB90092BAFD /* Computer.m */; };
 		D8496919873C4E0DA62C6F54047AE454 /* Pods-HLKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E607615283264A7080CB0601BBF7A9D /* Pods-HLKit_Tests-dummy.m */; };
 		DB6AE44FAE815A0E5AD303C79F7B7FA2 /* HLKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B3573856751E58D41685DCDB3598651 /* HLKit.bundle */; };
 		DB95A3978BB32030D083C9CA19C7D347 /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 206F3294469B6E9C47B351847FFA4AA3 /* UILabel+Addition.m */; };
-		E50C8D73C7F54E0B60940BAD53597454 /* UIView+Addition 下午9.45.43.m in Sources */ = {isa = PBXBuildFile; fileRef = C15AADDC877D6CE44DB35D1DFEA4E8F2 /* UIView+Addition 下午9.45.43.m */; };
-		EF5FF0F61EB5AA2DEA9C33AE38544E43 /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F122F8071366A49C123949BAB5FACF /* Computer.m */; };
 		F35D6417D8E684CB1F140376B257DEE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,8 +61,7 @@
 		00742CB6AA08AE368BB6DDAF81FB856E /* Pods-HLKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		051255DFA2EE65AEEFE512CAFD2298B6 /* Pods-HLKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0D98D9208B5D0FBE2725D551824BACD8 /* HLKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HLKit.modulemap; sourceTree = "<group>"; };
-		0ECF1471969B9F70114F4A078748AD94 /* Pods_HLKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLKit_Example.framework; path = "Pods-HLKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		174E999F2F9FDA5682381BDF330B6F23 /* ComputerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComputerFactory.h; path = "HLKit/Classes/简单工厂模式/ComputerFactory.h"; sourceTree = "<group>"; };
+		0ECF1471969B9F70114F4A078748AD94 /* Pods_HLKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDE44D053F552992869058B89F54DB2 /* Pods-HLKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		206F3294469B6E9C47B351847FFA4AA3 /* UILabel+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Addition.m"; path = "HLKit/Classes/Category/UILabel+Addition.m"; sourceTree = "<group>"; };
 		20A516A800250AEB3080C3A5A56ECC2C /* Pods-HLKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,40 +71,41 @@
 		2A06DDDDBAA04821574A968A1EB993CF /* ResourceBundle-HLKit-HLKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HLKit-HLKit-Info.plist"; sourceTree = "<group>"; };
 		2E607615283264A7080CB0601BBF7A9D /* Pods-HLKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		326865AFEAC3496CB7268936EBE61FEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		326865AFEAC3496CB7268936EBE61FEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		33C09D4DB6267585DBC8C3A63C30B6C5 /* Pods-HLKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLKit_Example-Info.plist"; sourceTree = "<group>"; };
-		3B3573856751E58D41685DCDB3598651 /* HLKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HLKit.bundle; path = "HLKit-HLKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45AD71080C7D4004F15CD844CE19A192 /* HLKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HLKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B3573856751E58D41685DCDB3598651 /* HLKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AD71080C7D4004F15CD844CE19A192 /* HLKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HLKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		54A5BB589FE42B7D1EF2E10785D9A362 /* Pods-HLKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLKit_Example-dummy.m"; sourceTree = "<group>"; };
-		55B042090B3903E65D01FD43C3FD64B8 /* AppleComputer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppleComputer.m; path = "HLKit/Classes/简单工厂模式/AppleComputer.m"; sourceTree = "<group>"; };
 		68B380AD2996C3222684E660D2A530A8 /* Pods-HLKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A5F948781A4B9B29FE9EC6EF4F90591 /* HLKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLKit-dummy.m"; sourceTree = "<group>"; };
-		749400F70D6484445E88A9F2D09154EB /* UIView+BorderLine 下午9.45.43.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BorderLine 下午9.45.43.m"; path = "HLKit/Classes/Category/UIView+BorderLine 下午9.45.43.m"; sourceTree = "<group>"; };
 		77FCC4B6BD29CF375BE067E7503E695B /* HLKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLKit.release.xcconfig; sourceTree = "<group>"; };
 		79AE747E80322514D09091CFC6A4118F /* UILabel+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Addition.h"; path = "HLKit/Classes/Category/UILabel+Addition.h"; sourceTree = "<group>"; };
-		7CEDBB78A62AE1870A0B54F8FCA39ABB /* Pods_HLKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLKit_Tests.framework; path = "Pods-HLKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEDBB78A62AE1870A0B54F8FCA39ABB /* Pods_HLKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D052A0EA1188368B704A61B0284CAA8 /* Pods-HLKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		7D80A6C9EE9B64A73E97AABB671ADF00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7D80A6C9EE9B64A73E97AABB671ADF00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		82385D2521821B41DBE07E5EAB0E754E /* Pods-HLKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		872905B680B73DB778434C998E6CC3B0 /* LenovoComputer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LenovoComputer.m; path = "HLKit/Classes/简单工厂模式/LenovoComputer.m"; sourceTree = "<group>"; };
-		87A8AF68EB6DA5F64E5874DE6D8B7095 /* ComputerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComputerFactory.m; path = "HLKit/Classes/简单工厂模式/ComputerFactory.m"; sourceTree = "<group>"; };
-		8C2CF4B570ADA8342B4370D074969008 /* Computer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Computer.h; path = "HLKit/Classes/简单工厂模式/Computer.h"; sourceTree = "<group>"; };
 		93CA21F0B2D41739361F1CFFBBAFEBB5 /* HLKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLKit.debug.xcconfig; sourceTree = "<group>"; };
 		9418477671E9704ACDE600257CB5609F /* Pods-HLKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HLKit_Example.modulemap"; sourceTree = "<group>"; };
-		957357DBFAB7D77ACAB9209CBFC42A11 /* UIView+BorderLine 下午9.45.43.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BorderLine 下午9.45.43.h"; path = "HLKit/Classes/Category/UIView+BorderLine 下午9.45.43.h"; sourceTree = "<group>"; };
 		99526F904E1D1ADD8FE928B186D0E566 /* Pods-HLKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC438F9949063BB931B89EAEF8DBE6F5 /* LenovoComputer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LenovoComputer.h; path = "HLKit/Classes/简单工厂模式/LenovoComputer.h"; sourceTree = "<group>"; };
-		C15AADDC877D6CE44DB35D1DFEA4E8F2 /* UIView+Addition 下午9.45.43.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Addition 下午9.45.43.m"; path = "HLKit/Classes/Category/UIView+Addition 下午9.45.43.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3D589DD62AEFB2CB78B69FF935B7462 /* Pods-HLKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		C9B57A23E6169FE24F33BB36380CA7A5 /* HLKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLKit-prefix.pch"; sourceTree = "<group>"; };
-		CBEB4CAF9412005018B5F3428973040C /* UIView+Addition 下午9.45.43.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Addition 下午9.45.43.h"; path = "HLKit/Classes/Category/UIView+Addition 下午9.45.43.h"; sourceTree = "<group>"; };
+		CDB927C024B37C8E0092BAFD /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Addition.m"; path = "HLKit/Classes/Category/UIView+Addition.m"; sourceTree = "<group>"; };
+		CDB927C124B37C8E0092BAFD /* UIView+BorderLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+BorderLine.m"; path = "HLKit/Classes/Category/UIView+BorderLine.m"; sourceTree = "<group>"; };
+		CDB927C224B37C8E0092BAFD /* UIView+BorderLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+BorderLine.h"; path = "HLKit/Classes/Category/UIView+BorderLine.h"; sourceTree = "<group>"; };
+		CDB927C324B37C8E0092BAFD /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Addition.h"; path = "HLKit/Classes/Category/UIView+Addition.h"; sourceTree = "<group>"; };
+		CDB927C924B37CB90092BAFD /* LenovoComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LenovoComputer.h; sourceTree = "<group>"; };
+		CDB927CA24B37CB90092BAFD /* ComputerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerFactory.h; sourceTree = "<group>"; };
+		CDB927CB24B37CB90092BAFD /* AppleComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleComputer.m; sourceTree = "<group>"; };
+		CDB927CC24B37CB90092BAFD /* Computer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Computer.h; sourceTree = "<group>"; };
+		CDB927CD24B37CB90092BAFD /* LenovoComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LenovoComputer.m; sourceTree = "<group>"; };
+		CDB927CE24B37CB90092BAFD /* AppleComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleComputer.h; sourceTree = "<group>"; };
+		CDB927CF24B37CB90092BAFD /* ComputerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerFactory.m; sourceTree = "<group>"; };
+		CDB927D024B37CB90092BAFD /* Computer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
 		D45E92DF1020C8154F9D071C411B4E55 /* Pods-HLKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D7F122F8071366A49C123949BAB5FACF /* Computer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Computer.m; path = "HLKit/Classes/简单工厂模式/Computer.m"; sourceTree = "<group>"; };
-		DB6EC8218D90924593A8F431B4490D53 /* HLKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HLKit.framework; path = HLKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6EC8218D90924593A8F431B4490D53 /* HLKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38C9D2FCB1CCF377BE06140B1245BD6 /* HLKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLKit-umbrella.h"; sourceTree = "<group>"; };
 		E628EB34DB6B7BB7428B89CD000ACE26 /* HLKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HLKit-Info.plist"; sourceTree = "<group>"; };
-		FFE9049251549873383E0E70E1E0065E /* AppleComputer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppleComputer.h; path = "HLKit/Classes/简单工厂模式/AppleComputer.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,10 +148,10 @@
 			children = (
 				79AE747E80322514D09091CFC6A4118F /* UILabel+Addition.h */,
 				206F3294469B6E9C47B351847FFA4AA3 /* UILabel+Addition.m */,
-				CBEB4CAF9412005018B5F3428973040C /* UIView+Addition 下午9.45.43.h */,
-				C15AADDC877D6CE44DB35D1DFEA4E8F2 /* UIView+Addition 下午9.45.43.m */,
-				957357DBFAB7D77ACAB9209CBFC42A11 /* UIView+BorderLine 下午9.45.43.h */,
-				749400F70D6484445E88A9F2D09154EB /* UIView+BorderLine 下午9.45.43.m */,
+				CDB927C324B37C8E0092BAFD /* UIView+Addition.h */,
+				CDB927C024B37C8E0092BAFD /* UIView+Addition.m */,
+				CDB927C224B37C8E0092BAFD /* UIView+BorderLine.h */,
+				CDB927C124B37C8E0092BAFD /* UIView+BorderLine.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -209,21 +209,6 @@
 			path = "Example/Pods/Target Support Files/HLKit";
 			sourceTree = "<group>";
 		};
-		87ED6D4F2D7541111C5CDB566832876C /* 简单工厂模式 */ = {
-			isa = PBXGroup;
-			children = (
-				FFE9049251549873383E0E70E1E0065E /* AppleComputer.h */,
-				55B042090B3903E65D01FD43C3FD64B8 /* AppleComputer.m */,
-				8C2CF4B570ADA8342B4370D074969008 /* Computer.h */,
-				D7F122F8071366A49C123949BAB5FACF /* Computer.m */,
-				174E999F2F9FDA5682381BDF330B6F23 /* ComputerFactory.h */,
-				87A8AF68EB6DA5F64E5874DE6D8B7095 /* ComputerFactory.m */,
-				AC438F9949063BB931B89EAEF8DBE6F5 /* LenovoComputer.h */,
-				872905B680B73DB778434C998E6CC3B0 /* LenovoComputer.m */,
-			);
-			name = "简单工厂模式";
-			sourceTree = "<group>";
-		};
 		9523F2D3918BEA9B7398DF56D2269FE8 /* Pods-HLKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +243,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CDB927C824B37CB90092BAFD /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				CDB927CE24B37CB90092BAFD /* AppleComputer.h */,
+				CDB927CB24B37CB90092BAFD /* AppleComputer.m */,
+				CDB927CC24B37CB90092BAFD /* Computer.h */,
+				CDB927D024B37CB90092BAFD /* Computer.m */,
+				CDB927CA24B37CB90092BAFD /* ComputerFactory.h */,
+				CDB927CF24B37CB90092BAFD /* ComputerFactory.m */,
+				CDB927C924B37CB90092BAFD /* LenovoComputer.h */,
+				CDB927CD24B37CB90092BAFD /* LenovoComputer.m */,
+			);
+			name = ModuleA;
+			path = HLKit/Classes/ModuleA;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -288,10 +289,10 @@
 		F308666C2B52F9970C6D4B11D08A06E4 /* HLKit */ = {
 			isa = PBXGroup;
 			children = (
+				CDB927C824B37CB90092BAFD /* ModuleA */,
 				12221AC15A20E9E79D73F38B082144E2 /* Category */,
 				3C387795A29FBA29DB28D7F0E8846BC5 /* Pod */,
 				4427FDBFAEC380A8D36523B28AD7B75F /* Support Files */,
-				87ED6D4F2D7541111C5CDB566832876C /* 简单工厂模式 */,
 			);
 			name = HLKit;
 			path = ../..;
@@ -312,14 +313,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721189630E84913E73B86EAF35ED5E49 /* AppleComputer.h in Headers */,
-				A677D140AB390DC77B280866D9D0329F /* Computer.h in Headers */,
-				3B682F71CC28F3216393B6D1EEF192BC /* ComputerFactory.h in Headers */,
+				CDB927D224B37CB90092BAFD /* ComputerFactory.h in Headers */,
+				CDB927C624B37C8E0092BAFD /* UIView+BorderLine.h in Headers */,
 				6965834BA3EAE0BA7F068F2957F4901E /* HLKit-umbrella.h in Headers */,
-				C5BAB6304F5C3AA58DCC2995B9CCA150 /* LenovoComputer.h in Headers */,
 				4124F4A6D18D791394B2A56ECBAE1C50 /* UILabel+Addition.h in Headers */,
-				433D99F6A2967570A9A3C0D6BA363E47 /* UIView+Addition 下午9.45.43.h in Headers */,
-				8A0738A8C67DCDA88D963DC973CDBA37 /* UIView+BorderLine 下午9.45.43.h in Headers */,
+				CDB927D424B37CB90092BAFD /* Computer.h in Headers */,
+				CDB927C724B37C8E0092BAFD /* UIView+Addition.h in Headers */,
+				CDB927D624B37CB90092BAFD /* AppleComputer.h in Headers */,
+				CDB927D124B37CB90092BAFD /* LenovoComputer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,14 +491,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04195C1F83309AE9A1F671D109FD1D6C /* AppleComputer.m in Sources */,
-				EF5FF0F61EB5AA2DEA9C33AE38544E43 /* Computer.m in Sources */,
-				2079F364C6F410F49750CD282C94E4CD /* ComputerFactory.m in Sources */,
+				CDB927C524B37C8E0092BAFD /* UIView+BorderLine.m in Sources */,
+				CDB927D524B37CB90092BAFD /* LenovoComputer.m in Sources */,
+				CDB927C424B37C8E0092BAFD /* UIView+Addition.m in Sources */,
 				2599ED1FE05725F3E8B99EF41D9EF6C5 /* HLKit-dummy.m in Sources */,
-				0EFF765CBE42C15B2ED1D98870649D9E /* LenovoComputer.m in Sources */,
+				CDB927D824B37CB90092BAFD /* Computer.m in Sources */,
+				CDB927D324B37CB90092BAFD /* AppleComputer.m in Sources */,
+				CDB927D724B37CB90092BAFD /* ComputerFactory.m in Sources */,
 				DB95A3978BB32030D083C9CA19C7D347 /* UILabel+Addition.m in Sources */,
-				E50C8D73C7F54E0B60940BAD53597454 /* UIView+Addition 下午9.45.43.m in Sources */,
-				7C0D50953F72C364C05F7AB6B205CDEF /* UIView+BorderLine 下午9.45.43.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,8 +655,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
