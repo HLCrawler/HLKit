@@ -34,11 +34,11 @@ TODO: Add long description of the pod here.
   # 此处将模块内部代码和模块提供的服务代码分开处理
   # 模块内部代码
   s.subspec '简单工厂模式' do |ss|
-    ss.source_files = 'HLKit/Classes/简单工厂模式/**/*'
+    ss.source_files = 'HLKit/Classes/简单工厂模式/*.{h,m}'
   end
 
   s.subspec 'Category' do |ss|
-    ss.source_files = 'HLKit/Classes/UIView/**/*'
+    ss.source_files = 'HLKit/Classes/Category/*.{h,m}'
   end
   
   # s.resource_bundles = {
