@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HLKit'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'A short description of HLKit.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
 
   s.subspec 'ModuleA' do |ss|
     ss.source_files = 'HLKit/Classes/ModuleA/**/*'
-    ss.dependency = 'HLKit/Category'
+    ss.dependency = 'HLKit/Category/*'
   end
   
   # s.resource_bundles = {
