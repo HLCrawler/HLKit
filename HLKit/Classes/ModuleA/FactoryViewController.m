@@ -8,6 +8,7 @@
 
 #import "FactoryViewController.h"
 #import "UIView+Addition.h"
+#import "AFNetworking.h"
 
 #pragma mark -- 简单工厂模式
 #import "ComputerFactory.h"

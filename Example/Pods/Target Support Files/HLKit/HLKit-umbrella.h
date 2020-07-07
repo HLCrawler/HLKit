@@ -11,11 +11,12 @@
 #endif
 
 #import "UILabel+Addition.h"
-#import "UIView+Addition 下午9.45.43.h"
-#import "UIView+BorderLine 下午9.45.43.h"
+#import "UIView+Addition.h"
+#import "UIView+BorderLine.h"
 #import "AppleComputer.h"
 #import "Computer.h"
 #import "ComputerFactory.h"
+#import "FactoryViewController.h"
 #import "LenovoComputer.h"
 
 FOUNDATION_EXPORT double HLKitVersionNumber;
