@@ -27,8 +27,8 @@
 		CDB927D624B37CB90092BAFD /* AppleComputer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB927CE24B37CB90092BAFD /* AppleComputer.h */; };
 		CDB927D724B37CB90092BAFD /* ComputerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB927CF24B37CB90092BAFD /* ComputerFactory.m */; };
 		CDB927D824B37CB90092BAFD /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB927D024B37CB90092BAFD /* Computer.m */; };
-		CDB927DB24B436160092BAFD /* FactoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB927D924B436160092BAFD /* FactoryViewController.h */; };
-		CDB927DC24B436160092BAFD /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB927DA24B436160092BAFD /* FactoryViewController.m */; };
+		CDB927DF24B439590092BAFD /* FactoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB927DD24B439590092BAFD /* FactoryViewController.h */; };
+		CDB927E024B439590092BAFD /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB927DE24B439590092BAFD /* FactoryViewController.m */; };
 		D8496919873C4E0DA62C6F54047AE454 /* Pods-HLKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E607615283264A7080CB0601BBF7A9D /* Pods-HLKit_Tests-dummy.m */; };
 		DB6AE44FAE815A0E5AD303C79F7B7FA2 /* HLKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B3573856751E58D41685DCDB3598651 /* HLKit.bundle */; };
 		DB95A3978BB32030D083C9CA19C7D347 /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 206F3294469B6E9C47B351847FFA4AA3 /* UILabel+Addition.m */; };
@@ -104,8 +104,8 @@
 		CDB927CE24B37CB90092BAFD /* AppleComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleComputer.h; sourceTree = "<group>"; };
 		CDB927CF24B37CB90092BAFD /* ComputerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerFactory.m; sourceTree = "<group>"; };
 		CDB927D024B37CB90092BAFD /* Computer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
-		CDB927D924B436160092BAFD /* FactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
-		CDB927DA24B436160092BAFD /* FactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
+		CDB927DD24B439590092BAFD /* FactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
+		CDB927DE24B439590092BAFD /* FactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
 		D45E92DF1020C8154F9D071C411B4E55 /* Pods-HLKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DB6EC8218D90924593A8F431B4490D53 /* HLKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38C9D2FCB1CCF377BE06140B1245BD6 /* HLKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLKit-umbrella.h"; sourceTree = "<group>"; };
@@ -250,8 +250,8 @@
 		CDB927C824B37CB90092BAFD /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				CDB927D924B436160092BAFD /* FactoryViewController.h */,
-				CDB927DA24B436160092BAFD /* FactoryViewController.m */,
+				CDB927DD24B439590092BAFD /* FactoryViewController.h */,
+				CDB927DE24B439590092BAFD /* FactoryViewController.m */,
 				CDB927CE24B37CB90092BAFD /* AppleComputer.h */,
 				CDB927CB24B37CB90092BAFD /* AppleComputer.m */,
 				CDB927CC24B37CB90092BAFD /* Computer.h */,
@@ -320,7 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB927D224B37CB90092BAFD /* ComputerFactory.h in Headers */,
-				CDB927DB24B436160092BAFD /* FactoryViewController.h in Headers */,
+				CDB927DF24B439590092BAFD /* FactoryViewController.h in Headers */,
 				CDB927C624B37C8E0092BAFD /* UIView+BorderLine.h in Headers */,
 				6965834BA3EAE0BA7F068F2957F4901E /* HLKit-umbrella.h in Headers */,
 				4124F4A6D18D791394B2A56ECBAE1C50 /* UILabel+Addition.h in Headers */,
@@ -502,7 +502,7 @@
 				CDB927D524B37CB90092BAFD /* LenovoComputer.m in Sources */,
 				CDB927C424B37C8E0092BAFD /* UIView+Addition.m in Sources */,
 				2599ED1FE05725F3E8B99EF41D9EF6C5 /* HLKit-dummy.m in Sources */,
-				CDB927DC24B436160092BAFD /* FactoryViewController.m in Sources */,
+				CDB927E024B439590092BAFD /* FactoryViewController.m in Sources */,
 				CDB927D824B37CB90092BAFD /* Computer.m in Sources */,
 				CDB927D324B37CB90092BAFD /* AppleComputer.m in Sources */,
 				CDB927D724B37CB90092BAFD /* ComputerFactory.m in Sources */,
