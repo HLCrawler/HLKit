@@ -36,7 +36,6 @@ TODO: Add long description of the pod here.
 
   s.subspec 'ModuleA' do |ss|
     ss.source_files = 'HLKit/Classes/ModuleA/**/*'
-    ss.dependency = 'HLKit/Category/*'
   end
   
   # s.resource_bundles = {
