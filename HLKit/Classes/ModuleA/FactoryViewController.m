@@ -15,17 +15,17 @@
 #import "LenovoComputer.h"
 #import "AppleComputer.h"
 
-#pragma mark -- 工厂模式
-#import "MobilePhoneFactory.h"
-#import "ApplePhoneFactory.h"
-#import "HUAWEIPhoneFactory.h"
-#import "MobilePhone.h"
-
-#pragma mark -- 抽象工厂模式
-#import "AnimalAbstractFactory.h"
-#import "AnimalFactory.h"
-#import "Cat.h"
-#import "Fish.h"
+//#pragma mark -- 工厂模式
+//#import "MobilePhoneFactory.h"
+//#import "ApplePhoneFactory.h"
+//#import "HUAWEIPhoneFactory.h"
+//#import "MobilePhone.h"
+//
+//#pragma mark -- 抽象工厂模式
+//#import "AnimalAbstractFactory.h"
+//#import "AnimalFactory.h"
+//#import "Cat.h"
+//#import "Fish.h"
 
 @interface FactoryViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -49,8 +49,8 @@
 //   [self.tableView reloadData];
     
     [self singleFactoryModel];
-    [self factoryModel];
-    [self abstractFactoryModel];
+//    [self factoryModel];
+//    [self abstractFactoryModel];
     
     UIButton * leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     leftBtn.frame = CGRectMake(0, 0, 40,40);
@@ -86,33 +86,33 @@
     [applePC getComputerName];
 }
 
-#pragma mark -- 工厂模式
-- (void)factoryModel {
-    
-    MobilePhoneFactory *applePhoneFactory = [[ApplePhoneFactory alloc] init];
-    MobilePhoneFactory *huaweiPhoneFactory = [[HUAWEIPhoneFactory alloc] init];
-    
-    MobilePhone *applepPhone = [applePhoneFactory createMobilePhone];
-    MobilePhone *huaweiPhone = [huaweiPhoneFactory createMobilePhone];
-    
-    [applepPhone name];
-    [huaweiPhone name];
-}
+//#pragma mark -- 工厂模式
+//- (void)factoryModel {
+//
+//    MobilePhoneFactory *applePhoneFactory = [[ApplePhoneFactory alloc] init];
+//    MobilePhoneFactory *huaweiPhoneFactory = [[HUAWEIPhoneFactory alloc] init];
+//
+//    MobilePhone *applepPhone = [applePhoneFactory createMobilePhone];
+//    MobilePhone *huaweiPhone = [huaweiPhoneFactory createMobilePhone];
+//
+//    [applepPhone name];
+//    [huaweiPhone name];
+//}
 
-#pragma mark -- 抽象工厂模式
-- (void)abstractFactoryModel {
-    
-    //抽象工厂实现
-    AnimalAbstractFactory *abstractFactory = [[AnimalFactory alloc] init];
-    
-    Cat *animal_cat = [abstractFactory createAnimal:[Cat class]];
-    [animal_cat getName];
-    [animal_cat getSkill];
-    
-    Fish *animal_fish = [abstractFactory createAnimal:[Fish class]];
-    [animal_fish getName];
-    [animal_fish getSkill];
-}
+//#pragma mark -- 抽象工厂模式
+//- (void)abstractFactoryModel {
+//
+//    //抽象工厂实现
+//    AnimalAbstractFactory *abstractFactory = [[AnimalFactory alloc] init];
+//
+//    Cat *animal_cat = [abstractFactory createAnimal:[Cat class]];
+//    [animal_cat getName];
+//    [animal_cat getSkill];
+//
+//    Fish *animal_fish = [abstractFactory createAnimal:[Fish class]];
+//    [animal_fish getName];
+//    [animal_fish getSkill];
+//}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dataSource.count;
