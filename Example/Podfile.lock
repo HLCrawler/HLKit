@@ -14,13 +14,13 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - HLKit (0.1.9):
+  - HLKit (0.2.1):
     - AFNetworking (~> 3.1.0)
-    - HLKit/Category (= 0.1.9)
-    - HLKit/ModuleA (= 0.1.9)
-  - HLKit/Category (0.1.9):
+    - HLKit/Category (= 0.2.1)
+    - HLKit/ModuleA (= 0.2.1)
+  - HLKit/Category (0.2.1):
     - AFNetworking (~> 3.1.0)
-  - HLKit/ModuleA (0.1.9):
+  - HLKit/ModuleA (0.2.1):
     - AFNetworking (~> 3.1.0)
     - HLKit/Category
 
@@ -38,8 +38,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  HLKit: c3a67e3786973a8ea35300041bcfc4823c5d3353
+  HLKit: 8e8283bd7b953f82446e74f5396cd504d62be888
 
-PODFILE CHECKSUM: 44bcc98d31f7a49adfafad45ad17bf831a57c325
+PODFILE CHECKSUM: 01a30064f999afd52526b604e6928ad0f1ae8160
 
 COCOAPODS: 1.9.3
