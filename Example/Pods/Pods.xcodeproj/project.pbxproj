@@ -67,12 +67,8 @@
 		C8A07DE2AB7410FA8C8E80852C230075 /* Pods-HLKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82385D2521821B41DBE07E5EAB0E754E /* Pods-HLKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBACE8617E480B756EE6647BCC05C897 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5623F593DEBAA382DF99FDD31045E552 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC155255C94E418E54EFB31E99012803 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA912D69415761429653F7B811562DF /* AFNetworking-dummy.m */; };
-		CDD9734D24C56C5C00CDA28B /* HLMediator+ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD9734B24C56C5C00CDA28B /* HLMediator+ModuleA.h */; };
-		CDD9734E24C56C5C00CDA28B /* HLMediator+ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD9734B24C56C5C00CDA28B /* HLMediator+ModuleA.h */; };
-		CDD9734F24C56C5C00CDA28B /* HLMediator+ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD9734B24C56C5C00CDA28B /* HLMediator+ModuleA.h */; };
-		CDD9735024C56C5C00CDA28B /* HLMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9734C24C56C5C00CDA28B /* HLMediator+ModuleA.m */; };
-		CDD9735124C56C5C00CDA28B /* HLMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9734C24C56C5C00CDA28B /* HLMediator+ModuleA.m */; };
-		CDD9735224C56C5C00CDA28B /* HLMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9734C24C56C5C00CDA28B /* HLMediator+ModuleA.m */; };
+		CDD9736224C5727300CDA28B /* HLMediator+ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD9736024C5727300CDA28B /* HLMediator+ModuleA.h */; };
+		CDD9736324C5727300CDA28B /* HLMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9736124C5727300CDA28B /* HLMediator+ModuleA.m */; };
 		D136FCE7C72A32D66FF0D32290DC324F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F9CACA2DA6FCFB6557F1D1508B0041 /* Foundation.framework */; };
 		D151C2E55815F81BA0E9E47C5E50FAC2 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E332E3B8151B1EA7316182CA2A272FA9 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1BAD573FAA8871929E33E7A2A0703AF /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB833DC244B4AE3F015138802D29A1A3 /* AFHTTPSessionManager.m */; };
@@ -215,8 +211,8 @@
 		BE8D020825A48ACDC883003EE8F34B0A /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		BF1E33BFD48BFF8D25101B3A2BC3CD7A /* FactoryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FactoryViewController.m; path = HLKit/Classes/ModuleA/FactoryViewController.m; sourceTree = "<group>"; };
 		C3D589DD62AEFB2CB78B69FF935B7462 /* Pods-HLKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		CDD9734B24C56C5C00CDA28B /* HLMediator+ModuleA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HLMediator+ModuleA.h"; sourceTree = "<group>"; };
-		CDD9734C24C56C5C00CDA28B /* HLMediator+ModuleA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HLMediator+ModuleA.m"; sourceTree = "<group>"; };
+		CDD9736024C5727300CDA28B /* HLMediator+ModuleA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HLMediator+ModuleA.h"; sourceTree = "<group>"; };
+		CDD9736124C5727300CDA28B /* HLMediator+ModuleA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HLMediator+ModuleA.m"; sourceTree = "<group>"; };
 		D45E92DF1020C8154F9D071C411B4E55 /* Pods-HLKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4615B93DB15CC443577E7060C36F51F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		D7449EC0902A5E52E7944337BDDCA412 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
@@ -343,7 +339,7 @@
 		552E29C0BB67DDF32C65A4BC2EEFA611 /* HLKit */ = {
 			isa = PBXGroup;
 			children = (
-				CDD9734A24C56C5C00CDA28B /* Mediator */,
+				CDD9735F24C5727300CDA28B /* Mediator */,
 				29D7EC865958FCEE1F11BAA9266A2D1A /* Category */,
 				F889585C2D942AEF6EA32D63482C8D12 /* ModuleA */,
 				4477FF18698A68E8C7B00BC18704009F /* Pod */,
@@ -464,11 +460,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CDD9734A24C56C5C00CDA28B /* Mediator */ = {
+		CDD9735F24C5727300CDA28B /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
-				CDD9734B24C56C5C00CDA28B /* HLMediator+ModuleA.h */,
-				CDD9734C24C56C5C00CDA28B /* HLMediator+ModuleA.m */,
+				CDD9736024C5727300CDA28B /* HLMediator+ModuleA.h */,
+				CDD9736124C5727300CDA28B /* HLMediator+ModuleA.m */,
 			);
 			name = Mediator;
 			path = HLKit/Classes/Mediator;
@@ -604,7 +600,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B01B703CC3B5F138F7DF4C8B6B0B3FFA /* HLMediator-umbrella.h in Headers */,
-				CDD9734F24C56C5C00CDA28B /* HLMediator+ModuleA.h in Headers */,
 				4DE7BF0B0279934EDF7AEFA67D901873 /* HLMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,7 +621,6 @@
 				2A24B2B78A0EF067F730E95250B6B8ED /* AFURLSessionManager.h in Headers */,
 				D151C2E55815F81BA0E9E47C5E50FAC2 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 				C13696F3D7605143956F3324210B004A /* UIButton+AFNetworking.h in Headers */,
-				CDD9734D24C56C5C00CDA28B /* HLMediator+ModuleA.h in Headers */,
 				CBACE8617E480B756EE6647BCC05C897 /* UIImage+AFNetworking.h in Headers */,
 				48F540E573B474B6F3061E72DD110BD6 /* UIImageView+AFNetworking.h in Headers */,
 				79AD396149E07F44C0313EA769ACB978 /* UIKit+AFNetworking.h in Headers */,
@@ -651,7 +645,7 @@
 				B8F67FCD12B0E4D28E29344AE99CD1CF /* AppleComputer.h in Headers */,
 				B50F7FB5301D79633640D0728FA5914C /* Computer.h in Headers */,
 				C7D07B67DD4E1F313036E34153A17A20 /* ComputerFactory.h in Headers */,
-				CDD9734E24C56C5C00CDA28B /* HLMediator+ModuleA.h in Headers */,
+				CDD9736224C5727300CDA28B /* HLMediator+ModuleA.h in Headers */,
 				35357FEC6182A95A8928F2BD3D77008C /* FactoryViewController.h in Headers */,
 				83608AB849739C6431C30FA88A06F1B6 /* HLKit-umbrella.h in Headers */,
 				E49443CEEE22E1F32AE0A885507A465A /* LenovoComputer.h in Headers */,
@@ -852,7 +846,6 @@
 			files = (
 				2575ACB92F7E1E6165EE9C0CED2EC11D /* HLMediator-dummy.m in Sources */,
 				EDFAA6484DFAD360E4E3EB4A759A6E45 /* HLMediator.m in Sources */,
-				CDD9735224C56C5C00CDA28B /* HLMediator+ModuleA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,7 +856,6 @@
 				60403B1325FCFE9F45636378419334E2 /* AFAutoPurgingImageCache.m in Sources */,
 				D1BAD573FAA8871929E33E7A2A0703AF /* AFHTTPSessionManager.m in Sources */,
 				82264A6CEC234B8D5D33E3F6D0DCAF09 /* AFImageDownloader.m in Sources */,
-				CDD9735024C56C5C00CDA28B /* HLMediator+ModuleA.m in Sources */,
 				5974934DABA59165EFAEA834A6277B86 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				CC155255C94E418E54EFB31E99012803 /* AFNetworking-dummy.m in Sources */,
 				1DDECCA91E19A3DE2B76D55BD114B12F /* AFNetworkReachabilityManager.m in Sources */,
@@ -892,7 +884,7 @@
 				DFB20D07A9A5B55C95E3445ECF6D2203 /* LenovoComputer.m in Sources */,
 				137511824860C19AAF1120CD5EBDCA70 /* UILabel+Addition.m in Sources */,
 				90CD995A252754D1DF22B935C11DD8A3 /* UIView+Addition.m in Sources */,
-				CDD9735124C56C5C00CDA28B /* HLMediator+ModuleA.m in Sources */,
+				CDD9736324C5727300CDA28B /* HLMediator+ModuleA.m in Sources */,
 				765807825DDCA8957053A2E1ABB52581 /* UIView+BorderLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

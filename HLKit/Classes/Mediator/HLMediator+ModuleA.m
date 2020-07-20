@@ -1,22 +1,21 @@
 //
 //  HLMediator+ModuleA.m
-//  HLMediator
+//  HLKit
 //
-//  Created by hanlong on 2020/7/15.
+//  Created by hanlong on 2020/7/20.
 //
 
 #import "HLMediator+ModuleA.h"
 
-static NSString * const kModuleTarget = @"HYXKit";
+static NSString * const kModuleTarget = @"HLKit";
 static NSString * const kModuleBGetFactoryVC = @"getModuleAController";
 
 @implementation HLMediator (ModuleA)
 
 - (UIViewController *)getModuleAController:(NSString *)uid {
     return [[HLMediator sharedInstance] performTarget:kModuleTarget
-                                                action:kModuleBGetRACTestVC
-                                                params:@{@"uid":uid}
-                                     shouldCacheTarget:YES];
+                                               action:kModuleBGetFactoryVC
+                                               params:@{@"uid":uid}
+                                    shouldCacheTarget:YES];
 }
-
 @end

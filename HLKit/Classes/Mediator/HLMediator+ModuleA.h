@@ -1,9 +1,10 @@
 //
-//  HLMediator+ModuleB.h
-//  HLMediator
+//  HLMediator+ModuleA.h
+//  HLKit
 //
-//  Created by hanlong on 2020/7/15.
+//  Created by hanlong on 2020/7/20.
 //
+
 #import <HLMediator/HLMediator.h>
 
 NS_ASSUME_NONNULL_BEGIN

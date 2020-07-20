@@ -38,6 +38,10 @@ TODO: Add long description of the pod here.
     ss.source_files = 'HLKit/Classes/ModuleA/**/*'
     ss.dependency 'HLKit/Category'
   end
+
+  s.subspec 'Mediator' do |mediator|
+    mediator.source_files = 'HLKit/Classes/Mediator/**/*'
+  end
   
   # s.resource_bundles = {
   #  'HLKit' => ['HLKit/Assets/*.png']
@@ -47,5 +51,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 3.1.0'
   # s.dependency 'SDWebImage','~> 5.0.6'
-  s.dependency 'HLMediator'
+  s.dependency 'HLMediator' '~> 0.1.2'
 end

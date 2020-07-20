@@ -31,7 +31,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (= 3.1.0)
   - HLKit (from `../`)
-  - HLMediator
+  - HLMediator (= 0.1.2)
 
 SPEC REPOS:
   https://github.com/HLCrawler/HLSpecA.git:
@@ -48,6 +48,6 @@ SPEC CHECKSUMS:
   HLKit: da59ac12d0e5bd1a081e03d96f5ed2a8699687be
   HLMediator: 396147bcbe2ac322e7a0e75ee2a04587a62ee610
 
-PODFILE CHECKSUM: c9b78e14d74d0479f8cd86ba4a32765fa176f1da
+PODFILE CHECKSUM: e17ed98e53614b3a5ee19993b93f8659f50cad73
 
 COCOAPODS: 1.9.3
