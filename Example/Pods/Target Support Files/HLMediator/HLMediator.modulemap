@@ -1,0 +1,6 @@
+framework module HLMediator {
+  umbrella header "HLMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HLKit'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'A short description of HLKit.'
 
 # This description is used to generate tags and improve search results.
@@ -47,5 +47,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 3.1.0'
   # s.dependency 'SDWebImage','~> 5.0.6'
-  s.dependency 'HYXKit'
+  s.dependency 'HLMediator'
 end

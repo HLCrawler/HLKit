@@ -14,21 +14,28 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - HLKit (0.2.1):
+  - HLKit (0.2.2):
     - AFNetworking (~> 3.1.0)
-    - HLKit/Category (= 0.2.1)
-    - HLKit/ModuleA (= 0.2.1)
-  - HLKit/Category (0.2.1):
+    - HLKit/Category (= 0.2.2)
+    - HLKit/ModuleA (= 0.2.2)
+    - HLMediator
+  - HLKit/Category (0.2.2):
     - AFNetworking (~> 3.1.0)
-  - HLKit/ModuleA (0.2.1):
+    - HLMediator
+  - HLKit/ModuleA (0.2.2):
     - AFNetworking (~> 3.1.0)
     - HLKit/Category
+    - HLMediator
+  - HLMediator (0.1.2)
 
 DEPENDENCIES:
   - AFNetworking (= 3.1.0)
   - HLKit (from `../`)
+  - HLMediator
 
 SPEC REPOS:
+  https://github.com/HLCrawler/HLSpecA.git:
+    - HLMediator
   trunk:
     - AFNetworking
 
@@ -38,8 +45,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  HLKit: 8e8283bd7b953f82446e74f5396cd504d62be888
+  HLKit: da59ac12d0e5bd1a081e03d96f5ed2a8699687be
+  HLMediator: 396147bcbe2ac322e7a0e75ee2a04587a62ee610
 
-PODFILE CHECKSUM: 01a30064f999afd52526b604e6928ad0f1ae8160
+PODFILE CHECKSUM: c9b78e14d74d0479f8cd86ba4a32765fa176f1da
 
 COCOAPODS: 1.9.3
