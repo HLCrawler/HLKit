@@ -67,8 +67,6 @@
 		C8A07DE2AB7410FA8C8E80852C230075 /* Pods-HLKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82385D2521821B41DBE07E5EAB0E754E /* Pods-HLKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBACE8617E480B756EE6647BCC05C897 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5623F593DEBAA382DF99FDD31045E552 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC155255C94E418E54EFB31E99012803 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA912D69415761429653F7B811562DF /* AFNetworking-dummy.m */; };
-		CDD9737024C59A0E00CDA28B /* Target_Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD9736E24C59A0E00CDA28B /* Target_Factory.h */; };
-		CDD9737124C59A0E00CDA28B /* Target_Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD9736F24C59A0E00CDA28B /* Target_Factory.m */; };
 		CFF2EAB6A6267ED1F84B2A4C3878C03E /* AppleComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB1DB5FFD3A629F81F184DD0263842A /* AppleComputer.m */; };
 		D136FCE7C72A32D66FF0D32290DC324F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F9CACA2DA6FCFB6557F1D1508B0041 /* Foundation.framework */; };
 		D151C2E55815F81BA0E9E47C5E50FAC2 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E332E3B8151B1EA7316182CA2A272FA9 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -220,8 +218,6 @@
 		C3D589DD62AEFB2CB78B69FF935B7462 /* Pods-HLKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		CB96D78CCCA38D937BE3E9405E91ABA4 /* UILabel+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Addition.h"; path = "HLKit/Classes/Category/UILabel+Addition.h"; sourceTree = "<group>"; };
 		CBE8CC47CFF7C3C2B7AB1B7ED5E9E883 /* UIView+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Addition.m"; path = "HLKit/Classes/Category/UIView+Addition.m"; sourceTree = "<group>"; };
-		CDD9736E24C59A0E00CDA28B /* Target_Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_Factory.h; path = HLKit/Classes/Action/Target_Factory.h; sourceTree = "<group>"; };
-		CDD9736F24C59A0E00CDA28B /* Target_Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_Factory.m; path = HLKit/Classes/Action/Target_Factory.m; sourceTree = "<group>"; };
 		D45E92DF1020C8154F9D071C411B4E55 /* Pods-HLKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4615B93DB15CC443577E7060C36F51F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		D7449EC0902A5E52E7944337BDDCA412 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
@@ -371,7 +367,6 @@
 		923C92A4AE526353520322D40ED4BE8A /* HLKit */ = {
 			isa = PBXGroup;
 			children = (
-				CDD9736424C5922000CDA28B /* Action */,
 				53CCFCD7D1170F05C08A8CEFB9A9B54C /* Mediator */,
 				BF8887B14280CC9BFE32B1396E4DCAE9 /* ModuleA */,
 				7E15C5A85761DA6077B5BF67E66B4B25 /* Category */,
@@ -514,15 +509,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CDD9736424C5922000CDA28B /* Action */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9736E24C59A0E00CDA28B /* Target_Factory.h */,
-				CDD9736F24C59A0E00CDA28B /* Target_Factory.m */,
-			);
-			name = Action;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -647,7 +633,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4959CAB5817F0D7316424892E47BAAC5 /* AppleComputer.h in Headers */,
-				CDD9737024C59A0E00CDA28B /* Target_Factory.h in Headers */,
 				29FBB1FF81BF365E513553EEC17B5975 /* Computer.h in Headers */,
 				25F6FE816FCC5C23C2B2F6D43DF756B5 /* ComputerFactory.h in Headers */,
 				01B220BAEA1B5DEBA506AB894195EE4D /* FactoryViewController.h in Headers */,
@@ -865,7 +850,6 @@
 				EF38D2D57095ACC6EA893FCE44689D32 /* HLKit-dummy.m in Sources */,
 				F2B574C3CF62167D371687B02DA9EC76 /* HLMediator+ModuleA.m in Sources */,
 				959000449CEE54F81C6C272353FB78DE /* LenovoComputer.m in Sources */,
-				CDD9737124C59A0E00CDA28B /* Target_Factory.m in Sources */,
 				EF5FC16D791107DD173E510F3527D51F /* UILabel+Addition.m in Sources */,
 				F433CE8CC6B4837BFCDE65FA79C3EAE6 /* UIView+Addition.m in Sources */,
 				EF325F59E7E4D03F5BFF41FF657E9707 /* UIView+BorderLine.m in Sources */,
