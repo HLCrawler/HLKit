@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HLKit'
-  s.version          = '0.2.5'
+  s.version          = '0.2.9'
   s.summary          = 'A short description of HLKit.'
 
 # This description is used to generate tags and improve search results.
@@ -41,6 +41,10 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Mediator' do |mediator|
     mediator.source_files = 'HLKit/Classes/Mediator/**/*'
+  end
+
+  s.subspec 'Action' do |action|
+    action.source_files = 'HLKit/Classes/Action/**/*'
   end
   
   # s.resource_bundles = {
