@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FactoryViewController : UIViewController
 
+@property (nonatomic,strong) NSString *factoryName;
+
 @end
 
 NS_ASSUME_NONNULL_END

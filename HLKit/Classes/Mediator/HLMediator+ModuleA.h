@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HLMediator (ModuleA)
 
-- (UIViewController *)getModuleAController:(NSString *)uid;
+- (UIViewController *)getModuleAControllerName:(NSString *)name;
 
 @end
 

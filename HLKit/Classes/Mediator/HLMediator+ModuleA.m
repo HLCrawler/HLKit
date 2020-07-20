@@ -7,15 +7,15 @@
 
 #import "HLMediator+ModuleA.h"
 
-static NSString * const kModuleTarget = @"HLKit";
-static NSString * const kModuleBGetFactoryVC = @"getModuleAController";
+static NSString * const kModuleTarget = @"Factory";
+static NSString * const kModuleBGetFactoryVC = @"FactoryViewController";
 
 @implementation HLMediator (ModuleA)
 
-- (UIViewController *)getModuleAController:(NSString *)uid {
+- (UIViewController *)getModuleAControllerName:(NSString *)name {
     return [[HLMediator sharedInstance] performTarget:kModuleTarget
                                                action:kModuleBGetFactoryVC
-                                               params:@{@"uid":uid}
+                                               params:@{@"name":name}
                                     shouldCacheTarget:YES];
 }
 @end
