@@ -1,6 +1,6 @@
 {
   "name": "HLKit",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "summary": "A short description of HLKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/HLCrawler/HLKit.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/HLCrawler/HLKit.git",
-    "tag": "0.2.2"
+    "tag": "0.2.3"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,7 +23,7 @@
       "~> 3.1.0"
     ],
     "HLMediator": [
-
+      "~> 0.1.2"
     ]
   },
   "subspecs": [
@@ -39,6 +39,10 @@
 
         ]
       }
+    },
+    {
+      "name": "Mediator",
+      "source_files": "HLKit/Classes/Mediator/**/*"
     }
   ]
 }
