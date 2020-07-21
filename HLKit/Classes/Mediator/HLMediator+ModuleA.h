@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIViewController *)getModuleAControllerName:(NSString *)name;
 
+- (void)getModuleACallback:(void(^)(NSString *name))callback;
+
 @end
 
 NS_ASSUME_NONNULL_END

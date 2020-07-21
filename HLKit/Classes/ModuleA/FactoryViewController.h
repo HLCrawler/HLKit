@@ -10,9 +10,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^viewControllerCallback)(NSString *className);
+
 @interface FactoryViewController : UIViewController
 
 @property (nonatomic,strong) NSString *factoryName;
+
+@property (nonatomic,copy) viewControllerCallback block;
 
 @end
 

@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIViewController *)Action_FactoryViewController:(NSDictionary *)params;
 
+- (void)Action_ViewControllerCallback:(NSDictionary *)params;
+
 @end
 
 NS_ASSUME_NONNULL_END

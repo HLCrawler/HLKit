@@ -42,6 +42,8 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"工厂模式";
+    NSLog(@"Name:%@",self.factoryName);
+    
 //    [self.view addSubview:self.tableView];
 //    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
 //        make.edges.equalTo(self.view);
@@ -73,6 +75,8 @@
 
 - (void)leftClick {
     NSLog(@"123");
+    self.block(self.factoryName);
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark -- 简单工厂模式
