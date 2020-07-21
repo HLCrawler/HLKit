@@ -8,23 +8,21 @@
 #import "HLMediator+ModuleA.h"
 
 static NSString * const kModuleTarget = @"Factory";
-static NSString * const kModuleBGetFactoryVC = @"FactoryViewController";
+static NSString * const kModuleAGetFactoryVC = @"FactoryViewController";
+static NSString * const KModuleAGetFactoryVCCallback = @"ViewControllerCallback";
 
 @implementation HLMediator (ModuleA)
 
 - (UIViewController *)getModuleAControllerName:(NSString *)name {
-    return [[HLMediator sharedInstance] performTarget:kModuleTarget
-                                               action:kModuleBGetFactoryVC
-                                               params:@{@"name":name}
-                                    shouldCacheTarget:YES];
+    return [self performTarget:kModuleTarget action:kModuleAGetFactoryVC params:@{@"name":name} shouldCacheTarget:YES];
 }
 
 - (void)getModuleACallback:(void(^)(NSString *name))callback {
     
-    NSMutableDictionary *paramsDic = [[NSMutableDictionary alloc] init];
-    if (!callback) {
-        [paramsDic setObject:callback forKey:@"callback"];
+    NSMutableDictionary *paramDic = [[NSMutableDictionary alloc] init];
+    if (callback != nil) {
+        [paramDic setObject:callback forKey:@"callback"];
     }
-    [self performTarget:@"Factory" action:@"ViewControllerCallback" params:paramsDic shouldCacheTarget:YES];
+    [self performTarget:kModuleTarget action:KModuleAGetFactoryVCCallback params:paramDic shouldCacheTarget:YES];
 }
 @end
