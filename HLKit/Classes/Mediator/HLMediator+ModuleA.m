@@ -25,6 +25,6 @@ static NSString * const kModuleBGetFactoryVC = @"FactoryViewController";
     if (!callback) {
         [paramsDic setObject:callback forKey:@"callback"];
     }
-    [[HLMediator sharedInstance] performTarget:@"Factory" action:@"ViewControllerCallback" params:paramsDic shouldCacheTarget:YES];
+    [self performTarget:@"Factory" action:@"ViewControllerCallback" params:paramsDic shouldCacheTarget:YES];
 }
 @end
