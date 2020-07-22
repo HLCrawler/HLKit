@@ -74,8 +74,8 @@
 }
 
 - (void)leftClick {
-    NSLog(@"123");
-    self.block(self.factoryName);
+
+    self.block(@"反向传值");
     [self.navigationController popViewControllerAnimated:YES];
 }
 
