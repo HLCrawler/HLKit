@@ -17,11 +17,12 @@ static NSString * const KModuleAGetCallback = @"ViewControllerCallback";
     return [self performTarget:kModuleTarget action:kModuleAGetFactoryVC params:@{@"name":name} shouldCacheTarget:YES];
 }
 
-- (void)getModuleACallback:(void(^)(NSString *name))callback {
+- (void)getModuleAController:(id)controller callback:(void(^)(NSString *name))callback {
     
     NSMutableDictionary *paramDic = [[NSMutableDictionary alloc] init];
     if (callback != nil) {
         [paramDic setObject:callback forKey:@"callback"];
+        [paramDic setObject:controller forKey:@"factory"];
     }
     [self performTarget:kModuleTarget action:KModuleAGetCallback params:paramDic shouldCacheTarget:YES];
 }
