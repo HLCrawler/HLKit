@@ -9,7 +9,7 @@
 
 static NSString * const kModuleTarget = @"Factory";
 static NSString * const kModuleAGetFactoryVC = @"FactoryViewController";
-static NSString * const KModuleAGetFactoryVCCallback = @"ViewControllerCallback";
+static NSString * const KModuleAGetFactoryVCCallback = @"ViewController";
 
 @implementation HLMediator (ModuleA)
 
