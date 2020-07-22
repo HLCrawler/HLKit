@@ -9,7 +9,7 @@
 
 static NSString * const kModuleTarget = @"Factory";
 static NSString * const kModuleAGetFactoryVC = @"FactoryViewController";
-static NSString * const KModuleAGetFactoryVCCallback = @"ViewController";
+static NSString * const KModuleAGetCallback = @"ViewControllerCallback";
 
 @implementation HLMediator (ModuleA)
 
@@ -23,6 +23,6 @@ static NSString * const KModuleAGetFactoryVCCallback = @"ViewController";
     if (callback != nil) {
         [paramDic setObject:callback forKey:@"callback"];
     }
-    [self performTarget:kModuleTarget action:KModuleAGetFactoryVCCallback params:paramDic shouldCacheTarget:YES];
+    [self performTarget:kModuleTarget action:KModuleAGetCallback params:paramDic shouldCacheTarget:YES];
 }
 @end
