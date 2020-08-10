@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Target_Factory.h"
 #import "UILabel+Addition.h"
 #import "UIView+Addition.h"
 #import "UIView+BorderLine.h"

@@ -14,19 +14,24 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - HLKit (0.2.3):
+  - HLKit (0.3.8):
     - AFNetworking (~> 3.1.0)
-    - HLKit/Category (= 0.2.3)
-    - HLKit/Mediator (= 0.2.3)
-    - HLKit/ModuleA (= 0.2.3)
+    - HLKit/Action (= 0.3.8)
+    - HLKit/Category (= 0.3.8)
+    - HLKit/Mediator (= 0.3.8)
+    - HLKit/ModuleA (= 0.3.8)
     - HLMediator (~> 0.1.2)
-  - HLKit/Category (0.2.3):
+  - HLKit/Action (0.3.8):
+    - AFNetworking (~> 3.1.0)
+    - HLKit/ModuleA
+    - HLMediator (~> 0.1.2)
+  - HLKit/Category (0.3.8):
     - AFNetworking (~> 3.1.0)
     - HLMediator (~> 0.1.2)
-  - HLKit/Mediator (0.2.3):
+  - HLKit/Mediator (0.3.8):
     - AFNetworking (~> 3.1.0)
     - HLMediator (~> 0.1.2)
-  - HLKit/ModuleA (0.2.3):
+  - HLKit/ModuleA (0.3.8):
     - AFNetworking (~> 3.1.0)
     - HLKit/Category
     - HLMediator (~> 0.1.2)
@@ -49,7 +54,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  HLKit: 84db1d1bb939ac53d8864a805f49aff9934b8545
+  HLKit: f46f01f5df7d6b444a2d98b15957ce95da98c494
   HLMediator: 396147bcbe2ac322e7a0e75ee2a04587a62ee610
 
 PODFILE CHECKSUM: e17ed98e53614b3a5ee19993b93f8659f50cad73
